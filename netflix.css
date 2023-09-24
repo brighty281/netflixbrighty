@@ -1,0 +1,461 @@
+.image-section{
+    
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('netflixbgm.jpg');
+    
+    border: 1px solid #999;
+}
+
+body{
+    margin: 0;
+    background-color: #000;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: #fff;
+}
+.header{
+    background-color: black;
+    -webkit-mask-image: linear-gradient(#000,rgba(0,0,0,0));
+    mask-image: linear-gradient(#000,rgba(0,0,0,0));
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+.logodes svg{
+    width: 10.25rem;
+    height: 4.5rem;
+    color: rgb(255, 0, 13);
+    fill: currentColor;   
+}
+.logo{
+    width: 50%;
+    padding-left: 173px;
+    padding-top: 15px;
+    flex: 1;
+}
+.signup-lang{
+    width: 50%;
+    flex: 1;
+    padding-top: 25px;
+    margin-left: 367px;
+}    
+.button{ 
+    background-color: #e50914;
+    color: #fff;
+    padding: 7px 17px;
+    margin-left: 30px;
+    border-radius: 5px;
+    font-size: large;
+
+}
+.language{
+    background: transparent;
+    color: #fff;
+    padding: 9px 18px;
+    padding-left: 28px;
+    font-size: large;
+    font-weight:400;
+    border-radius: 3px;
+}
+.signup-lang svg{
+    height: 25px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 4px;
+}
+.centre-content{
+    width: max-content;
+    position: absolute;
+    margin-top: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+    
+}
+.centre-content h1{
+    font-size: 50px;
+    line-height: 70px;
+    max-width: 950px;
+    font-weight: 750;
+    margin: 0;
+    padding: 0;
+    
+}
+.centre-content h3{
+    font-weight: 450;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+.centre-content p{
+    font-size: 23px;
+    font-weight: 500;
+}
+.email-signup{
+    margin-left: 200px;
+    border-radius: 7px;
+    display: flex;
+    width: 60%;
+}
+.email-signup input{
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: 600px;
+    color: #fff;
+    caret-color: white;
+    font-size: 20px;
+    border-radius: 9px;
+    
+}
+.email-signup input::placeholder{
+    color: #fff;
+    
+}
+.email-signup button{
+    margin-left: 20px;
+    background: #e50914;
+    color: #fff;
+    width: 230px;
+    height: 70px;
+    border-radius: 9px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer{
+    background-color: #000;
+    height: 150px;
+    margin-top: 350px;
+    -webkit-mask-image: linear-gradient(rgba(0,0,0,0),#000);
+    mask-image: linear-gradient(rgba(0,0,0,0),#000,);
+    
+}
+/********************features*************************/
+.features-one{
+    width: 100%;
+    height: 550px;
+    background-color: #000;
+    display: flex;
+    border: 4px solid #999;
+}
+.left-sideone{
+    width: 50%;
+    margin-left: 170px;
+    margin-top: 140px;
+    flex: 1;
+}
+.left-sideone h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.left-sideone h3{
+    
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+}
+.right-sideone{
+    width: 50%;
+    flex: 1;
+}
+.right-sideone img{
+    margin-top: 100px;
+    width: 500px;
+    
+}
+.right-sideone video{
+    width: 350px;
+    margin-left: 70px;
+    transform: translateY(-300px);
+}
+.features-two{
+    width: 100%;
+    height: 550px;
+    background-color: #000;
+    display: flex;
+    border: 6px solid #999;
+    display: flex;
+}
+.left-sidetwo{
+    width: 50%;
+    flex: 1;
+}
+.left-sidetwo img{
+    width: 500px;
+    margin-left: 191px ;
+    margin-top: 50px;
+}
+.right-sidetwo{
+    width: 50%;
+    flex: 1;
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.right-sidetwo h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin: 0;
+}
+.hdivtwo{
+    margin-top: 18px;
+}
+.right-sidetwo h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+}
+.features-three{
+    width: 100%;
+    height: 550px;
+    background-color: #000;
+    display: flex;
+    border: 6px solid #999;
+    display: flex;
+    
+}
+.left-sidethree{
+    width: 50%;
+    margin-left: 170px;
+    margin-top: 140px;
+    flex: 1;
+}
+.left-sidethree h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.left-sidethree h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+}
+.right-sidethree{
+    width: 50%;
+    flex: 1;
+    position: relative;
+    margin-right: 150px;
+}
+.right-sidethree img{
+    width: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    margin-top: 100px;
+}
+.right-sidethree video{
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+.features-four{
+    width: 100%;
+    height: 550px;
+    background-color: #000;
+    display: flex;
+    border: 6px solid #999;
+    display: flex;
+}
+.left-sidefour{
+    width: 50%;
+    flex: 1;
+}
+.left-sidefour img{
+    margin-left: 180px;
+    margin-top: 50px;
+    width: 510px;
+    height: 400px;
+}
+.right-sidefour{
+    width: 50%;
+    flex: 1;
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.right-sidefour h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin: 0;
+}
+.right-sidefour h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+}
+.hdivfour{
+    margin-top: 18px;
+    
+}
+.faq-container{
+    width: 100%;
+    height: 1300px;
+    background-color: #000;
+    border: 6px solid #999;
+}
+.faq {
+    width: 1050px;
+    margin: auto;
+    padding-top: 40px;
+}
+.faq h1{
+    margin-left: 130px;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.question {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    background-color: rgb(45,45,45);
+    padding: 30px;
+    cursor: pointer;
+    display: flex;
+    font-size: 27px;
+    font-weight: 450;
+    
+    position: relative;
+}
+
+label::before{
+    content: '+';
+    font-size: 45px;
+    position: absolute;    
+    top: 50%;
+    right: 25px; 
+    transform: translateY(-50%);
+    
+    
+}
+
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-in-out;
+    padding: 0 30px;
+    background-color: rgb(45,45,45);
+    font-size: 27px;
+    font-weight: 450;
+    border-top: 1.5px solid #000;
+}
+
+input[type="checkbox"]:checked + label + .answer {
+    max-height: 1500px; /* Adjust to a sufficiently large value to reveal the answer */
+}
+input[type="checkbox"]:checked + label::before {
+    content: '×'; /* Change the plus symbol to X when checked */
+}
+.last-mail{
+    margin-top: 60px;
+}
+  
+.last-mail p{
+    
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+.last-links{
+    width: 100%;
+    height: 550px;
+}
+.main-link{
+    width: 1080px;
+    display: flex;
+    margin-left: 170px;
+    margin-top: 70px;
+}
+
+.subdiv-one{
+    width: 360px;
+    flex: 1;
+}
+.subdiv-one h4{
+    font-size: 18px;
+    font-weight: 350;
+}
+.subdiv-two{
+    width: 360px;
+    flex: 1;
+    margin-top: 85px;
+}
+.subdiv-three{
+    width: 360px;
+    flex: 1;
+    margin-top: 85px;
+}
+.last-lang{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.last-lang svg{
+    height: 25px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 2px;
+}
+/*.stranger-things{
+    border: 2px solid #666;
+    border-radius: 15px;
+    padding: 10px;
+    height: 95px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: max-content 1fr max-content;
+}    
+.stranger-things img{
+    height: 75px;
+    width: 50px;
+}*/
+.stranger-things{
+    border: 2px solid #666;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    margin-left: 290px;
+    transform: translateY(-130%);
+    background-color: #000;
+    
+}
+.stranger-things img{
+    width: 60px;
+    height: 80px;
+    flex: 1;
+    margin-top: 8px;
+    transform: translateX(-320%);
+}
+.downloading h4{
+    font-size: 20px;
+}
+.downloading{
+    flex: 1;
+    width: 100px;
+    margin-left: -170px;
+    margin-top: 15px;
+    
+}  
+.gif{
+    width: auto;
+    height: 6px;
+    flex: 1;
+    margin-left: 60px;
+}
